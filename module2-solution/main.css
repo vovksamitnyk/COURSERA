@@ -19,7 +19,6 @@ p {
     color: darkred;
 }
 .daughter {
-/*    width: 90%;*/
     border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
@@ -43,17 +42,11 @@ p {
 #underheadThirdColumn {
     background-color: yellow;
 }
-.row {
-    width: 100%;
-}
-
 .first-column, .second-column, .third-column {
     width: 33%;
     float: left;
     padding: 2%;
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
     .first-column, .second-column {
@@ -67,11 +60,8 @@ p {
     }
 }
 
-
-
 @media (max-width: 767px) {
     .first-column, .second-column, .third-column {
         width: 100%;
-        padding: 2%;
     }
 }
