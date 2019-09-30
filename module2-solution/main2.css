@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: paleturquoise;
+    font-family: calibri, san-serif;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    margin: 5% 0%;
+}
+
+/*
+p {
+border: 1px solid white;
+}
+*/
+.row {
+    width: 100%;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.first-column, .second-column, .third-column {
+    width: 33.33%;
+    border: 1px solid beige;
+    padding: 0.5em;
+    float: left;
+}
+
+div.daughter {
+    height: auto;
+    border: 1px solid black;
+    background-color: beige;
+}
+.underheader{
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+    float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
