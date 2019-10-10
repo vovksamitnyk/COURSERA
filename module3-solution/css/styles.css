@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: brown;
+    margin: 0 0 20px 0;
+    font-size: 3em;
+    font-weight: 600;
+}
+h3 {
+    text-align: center;
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+p {
+    margin: 0.7em;
+    color: black;
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: paleturquoise;
+    font-family: 'Oxygen', sans-serif;
+}
+.row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.back-to-top {
+    margin: 0 0 0.7em 0.7em;
+    display: block;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-left: 1.5em;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Luckiest Guy', cursive;
+    color: #557c3e;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: darkred;
+    font-weight: 600;
+}
+#nav-list a:hover {
+    border: 2px solid darkred;
+}
+#nav-list #sushi:hover {
+    background: lightcoral;
+    color: white;
+}
+#nav-list #meet:hover {
+    background-color: lawngreen;
+    color: black;
+}
+#nav-list #chicken:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/*******************************/
+
+.col-md-4, .col-sm-6, .col-xs-12 {
+    margin-bottom: 2em;
+}
+.daughter {
+    height: auto;
+    border: 3px solid darkred;
+    background-color: beige;
+}
+.underheader {
+    display: flow-root; /*Що таке той флоy-рут??..*/
+    border-bottom: 3px solid darkred;
+}
+#underheadFirstColumn {
+    background-color: lightcoral;
+    color: white;
+}
+#underheadSecondColumn {
+    background-color: lawngreen;
+    color: black;
+}
+#underheadThirdColumn {
+    background-color: yellow;
+    color: blue;
+}
+
+footer {
+    font-size: 0.7em;
+    color: darkred;
+}
