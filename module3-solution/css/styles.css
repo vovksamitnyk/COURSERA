@@ -65,21 +65,41 @@ body {
 #nav-list a {
     color: darkred;
     font-weight: 600;
+    border-top: 2px solid #f6b319;
+    border-bottom: 2px solid #f6b319;
 }
 #nav-list a:hover {
-    border: 2px solid darkred;
+    border-top: 2px solid darkred;
+    border-bottom: 2px solid darkred;
 }
 #nav-list #sushi:hover {
     background: lightcoral;
     color: white;
 }
+#nav-list #sushi:active {
+    background: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
 #nav-list #meet:hover {
     background-color: lawngreen;
     color: black;
 }
+#nav-list #meet:active {
+    background: white;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
 #nav-list #chicken:hover {
     background-color: yellow;
     color: blue;
+}
+#nav-list #chicken:active {
+    background: white;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 /*******************************/
@@ -93,9 +113,13 @@ body {
     background-color: beige;
 }
 .underheader {
-    display: flow-root; /*Що таке той флоy-рут??..*/
     border-bottom: 3px solid darkred;
 }
+.underheader h3 {
+    margin: 0;
+    padding: 0.5em;
+}
+
 #underheadFirstColumn {
     background-color: lightcoral;
     color: white;
